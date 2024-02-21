@@ -1,0 +1,96 @@
+/* qrcode.css */
+
+body {
+    background-color: rgb(39, 28, 28);
+}
+
+.app {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #335383;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px white;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 2px solid #335383;
+}
+
+.qr-code-generator input:focus {
+    border: 5px solid #335383;
+    outline: none;
+    /* Optional: Removes the default browser outline */
+}
+
+button {
+    padding: 10px;
+    background-color: #0a8ef3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #214b6c;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.qr-code-generator {
+    margin-top: 50px;
+}
+
+.qr-code-generator h1 {
+    color: #335383;
+}
+
+.qr-code-generator input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.qr-code-generator button {
+    padding: 10px;
+    background-color: #335383;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.qr-code-generator button:hover {
+    background-color: #214b6c;
+}
+
+.qr-code-generator img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(247, 245, 245, 0.866);
+    margin-bottom: 20px;
+    /* Add box shadow here */
+}
+
+@media (max-width: 600px) {
+    /* Responsive styles for screens smaller than 600px */
+    .qr-code-generator input {
+        width: 100%;
+    }
+    button {
+        margin-top: 10px;
+    }
+}
