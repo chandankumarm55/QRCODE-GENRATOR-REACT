@@ -1,6 +1,8 @@
+#VisitSite: https://qrcode-react-app.netlify.app/
+
 # QR-Code Generator
 
-This React app allows you to generate QR codes based on a provided URL.
+This React app allows you to generate QR codes based on a provided URL or Anything .
 
 ## Usage
 
@@ -20,7 +22,3 @@ This React app allows you to generate QR codes based on a provided URL.
 3. Run the application: `npm start`
 4. Open your browser and visit http://localhost:3000 to see the app in action.
 
-# QR-CODEGENRATOR-REACT-APP
-# QRCODE-GENRATOR-REACT
-# QRCODE-GENRATOR-REACT
-# QRCODE-GENRATOR-REACT
